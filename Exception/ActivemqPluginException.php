@@ -3,7 +3,7 @@
 namespace MauticPlugin\MauticActivemqTransportBundle\Exception;
 
 /**
- * Class SloocePluginException.
+ * Class ActivemqPluginException.
  */
 class ActivemqPluginException extends \Exception
 {

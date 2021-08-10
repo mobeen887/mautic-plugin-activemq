@@ -17,10 +17,10 @@ use MauticPlugin\MauticActivemqBundle\Exception\MessageException;
 use MauticPlugin\MauticActivemqBundle\Exception\ActivemqPluginException;
 use MauticPlugin\MauticActivemqBundle\Exception\ActivemqServerException;
 use MauticPlugin\MauticActivemqBundle\Integration\ActivemqIntegration;
-use MauticPlugin\MauticActivemqBundle\Stomp\StompFrame;
-use MauticPlugin\MauticActivemqBundle\Stomp\StompMessage;
-use MauticPlugin\MauticActivemqBundle\Stomp\Validator\MessageContentValidator;
-use MauticPlugin\MauticActivemqBundle\Activemq\Connector;
+// use MauticPlugin\MauticActivemqBundle\Stomp\StompFrame;
+// use MauticPlugin\MauticActivemqBundle\Stomp\StompMessage;
+// use MauticPlugin\MauticActivemqBundle\Stomp\Validator\MessageContentValidator;
+use MauticPlugin\MauticActivemqBundle\src\MyCustomMessage;
 use Monolog\Logger;
 
 /**

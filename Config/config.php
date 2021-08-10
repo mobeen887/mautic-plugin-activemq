@@ -44,14 +44,6 @@ return [
                 ],
                 'tag' => 'mautic.sms_callback_handler',
             ],
-            'mautic.activemq.connector'     => [
-                'class'     => \MauticPlugin\MauticActivemqBundle\Activemq\Connector::class,
-                'arguments' => [
-                    'mautic.helper.phone_number',
-                    'mautic.helper.integration',
-                    'monolog.logger.mautic',
-                ],
-            ],
         ],
         'models'       => [
         ],
